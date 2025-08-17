@@ -50,7 +50,7 @@ O projeto utiliza NestJS, Prisma, PostgreSQL, autenticação JWT e Docker, segui
 5. Instalar dependências (`npm install`)  
 6. Gerar Prisma Client (`npx prisma generate`)  
 7. Rodar migrações (`npx prisma migrate dev` ou `deploy`)  
-8. Rodar seed (`node prisma/seed.js`)  
+8. Rodar seed (`node prisma/seed.js`)  ( **vai criar o admin de nossa aplicação no banco de dados** )
 9. Iniciar o projeto (`npm run start:dev`)
 
 ---
@@ -127,8 +127,7 @@ Aplique as migrações do Prisma para criar as tabelas no PostgreSQL:
 
 ## **8️⃣ Rodar seed**
 
-O seed vai gerar o Admin no banco de dados com dados iniciais usando o script de seed:
-
+O seed vai gerar o Admin no banco de dados com dados iniciais usando o script de seed (seed.js)
 
 ---
 
