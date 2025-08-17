@@ -140,6 +140,13 @@ Inicie o servidor da aplicação:
 
 ---
 
+## **🌟 Boas Práticas Aplicadas**
 
+Durante o projeto, aplicamos as seguintes boas práticas:
+
+- ✅ **Uso de DTOs e `class-validator`** para validação de dados de entrada.  
+- ✅ **Tratamento de erros centralizado** com `HttpExceptionFilter`.  
+- ✅ **Módulos bem separados** (AuthModule, UserModule, etc.) para melhor organização e manutenção.  
+- ✅ **Variáveis de ambiente** armazenadas em `.env`, evitando expor credenciais.  
 
 
