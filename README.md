@@ -31,7 +31,7 @@ O projeto utiliza NestJS, Prisma, PostgreSQL, autenticação JWT e Docker, segui
 
 ### Usuários (rotas protegidas por JWT)
 - `GET /users` → Lista todos os usuários (ordenados por ID). *Tem que estar logado*
-- `GET /users/:id` → Retorna um usuário específico. * Tem que estar logado*
+- `GET /users/:id` → Retorna um usuário específico. *Tem que estar logado*
 - `PUT /users/:id` → Atualiza dados do próprio usuário ou se for admin atualiza qualquer usuário.
 - `DELETE /users/:id` → Remove o próprio usuário ou se for admin deleta qualquer usuário.
 
@@ -43,4 +43,15 @@ O projeto possui **docker-compose** para rodar o PostgreSQL.
 Comando para iniciar o ambiente:
 
 ```bash
-docker-compose up -d
+docker-compose up -d
+```
+
+## ✅ Boas práticas aplicadas
+
+-Uso de DTOs e class-validator para validação de dados.
+-Tratamento de erros com filtros personalizados (HttpExceptionFilter).
+-Arquitetura modular: AuthModule, UserModule, etc.
+-Variáveis de ambiente para configuração segura.
+-Senhas armazenadas com hash (bcrypt).
+-Rotas protegidas por JWT.
+
