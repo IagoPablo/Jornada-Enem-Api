@@ -1,10 +1,10 @@
 # Jornada ENEM - API REST
 
-![NestJS](https://img.shields.io/badge/NestJS-v10-red) 
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14-blue) 
 ![Node.js](https://img.shields.io/badge/Node.js-v20-green)
 ![Docker](https://img.shields.io/badge/Docker-20-blue)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+
 
 API REST para gerenciamento de usuários, construída como desafio técnico da Jornada ENEM.  
 O projeto utiliza NestJS, Prisma, PostgreSQL, autenticação JWT e Docker, seguindo boas práticas de desenvolvimento de APIs.
